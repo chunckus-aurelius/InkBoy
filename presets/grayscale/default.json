@@ -1,0 +1,33 @@
+{
+  "format": "inkboy-preset-v1",
+  "mode": "grayscale",
+  "name": "Default",
+  "settings": {
+    "doses": {
+      "K": [0, 2, 4, 7],
+      "D": [4, 0, 1, 6],
+      "L": [4, 1, 0, 5],
+      "W": [7, 3, 2, 0]
+    },
+    "retarget_percent": 100,
+    "scan_policy": "auto",
+    "strength": "stock",
+    "pair_hold": true,
+    "holds": {
+      "K": [true, true, true, false],
+      "D": [false, true, true, false],
+      "L": [false, true, true, false],
+      "W": [false, false, true, true]
+    },
+    "history": "both",
+    "weak_white_to_light": "normal",
+    "routes": {
+      "L>K>L": { "return": -1, "reverse_percent": 150 },
+      "D>K>D": { "return": 0, "reverse_percent": null },
+      "D>W>D": { "return": 0, "reverse_percent": null },
+      "L>W>L": { "return": 0, "reverse_percent": null },
+      "D>L>D": { "return": 0, "reverse_percent": null },
+      "L>D>L": { "return": 0, "reverse_percent": null }
+    }
+  }
+}

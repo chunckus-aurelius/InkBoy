@@ -1,0 +1,14 @@
+/build*/
+sdkconfig
+sdkconfig.old
+managed_components/
+*.gb
+*.gbc
+!roms/big2small.gb
+.DS_Store
+__pycache__/
+*.pyc
+compile_commands.json
+.vscode/
+.cache/
+dist/

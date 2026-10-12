@@ -1,0 +1,6 @@
+{
+  "format": "inkboy-preset-v1",
+  "mode": "dithered",
+  "name": "Default",
+  "settings": { "black_pulses": 8, "white_pulses": 8 }
+}

@@ -1,0 +1,3 @@
+[submodule "components/esp32-gameboy"]
+	path = components/esp32-gameboy
+	url = ../esp32-gameboy

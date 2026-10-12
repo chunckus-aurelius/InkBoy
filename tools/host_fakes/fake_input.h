@@ -1,0 +1,9 @@
+#pragma once
+#include "input.h"
+
+/* Scripted stand-in for main/input.c. Hooks default to "nothing pressed". */
+extern uint8_t (*fake_input_buttons)(void);
+extern unsigned (*fake_input_boot_event)(void);
+extern bool (*fake_input_connected)(void);
+extern bool fake_input_controller_ready, fake_input_mapping_valid;
+extern unsigned fake_input_remaps, fake_input_releases;
